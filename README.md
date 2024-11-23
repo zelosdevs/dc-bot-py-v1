@@ -79,7 +79,7 @@ Egy egyszerű és testreszabható Python Discord bot, amely a [discord.py](https
 
 1. Klónozd a repository-t:
    ```bash
-   git clone https://github.com/felhasznalo-nev/repo-nev.git
+   git clone https://github.com/zelosdevs/dc-bot-py-v1.git
    cd repo-nev
    ```
 
