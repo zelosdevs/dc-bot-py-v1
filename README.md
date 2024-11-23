@@ -22,21 +22,15 @@ A simple and customizable Python Discord bot built with [discord.py](https://dis
    ```bash  
    git clone https://github.com/zelosdevs/dc-bot-py-v1.git
    cd your-repo-name  
-   ```  
+   ```    
 
-2. Install dependencies:  
+2. Run the bot:  
    ```bash  
-   pip install -r requirements.txt  
-   ```   
-
-3. Run the bot:  
-   ```bash  
-   python bot.py  
+   python main.py  
    ```  
 
 ## Usage  
-- Customize commands in the `commands` folder.  
-- Adjust configuration in `config.py`.  
+- Adjust configuration in `main.py`.  
 
 ## Contributing  
 Contributions are welcome! Please open an issue or submit a pull request to suggest improvements or new features.  
@@ -48,7 +42,6 @@ This project is licensed under the terms described in the [LICENSE](LICENSE.md) 
 For questions or help, feel free to open an issue or contact me directly.  
 
 
-Itt van a `README.md` fájl magyar nyelvű változata:
 
 
 
@@ -73,28 +66,14 @@ Egy egyszerű és testreszabható Python Discord bot, amely a [discord.py](https
 1. Klónozd a repository-t:
    ```bash
    git clone https://github.com/zelosdevs/dc-bot-py-v1.git
-   cd repo-nev
    ```
 
-2. Telepítsd a függőségeket:
+2. Indítsd el a botot:
    ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Állítsd be a bot token-t:
-   - Hozz létre egy `.env` fájlt a projekt gyökérmappájában.
-   - Add hozzá a bot token-t:
-     ```env
-     DISCORD_TOKEN=bot-token-ide
-     ```
-
-4. Indítsd el a botot:
-   ```bash
-   python bot.py
+   python main.py
    ```
 
 ## Használat
-- A parancsokat a `commands` mappában testreszabhatod.
 - A konfigurációkat a `config.py` fájlban állíthatod be.
 
 ## Közreműködés
