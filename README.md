@@ -27,16 +27,9 @@ A simple and customizable Python Discord bot built with [discord.py](https://dis
 2. Install dependencies:  
    ```bash  
    pip install -r requirements.txt  
-   ```  
+   ```   
 
-3. Set up the bot token:  
-   - Create a `.env` file in the root directory.  
-   - Add your bot token:  
-     ```env  
-     DISCORD_TOKEN=your-bot-token-here  
-     ```  
-
-4. Run the bot:  
+3. Run the bot:  
    ```bash  
    python bot.py  
    ```  
