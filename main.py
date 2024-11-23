@@ -16,7 +16,7 @@ class MyBot(commands.Bot):
         super().__init__(
             command_prefix="!",
             intents=intents,
-            application_id="YOUR_APPLICATION_ID"
+            application_id="YOUR_APPLICATION_ID" # Hogyha csak egy szerveren szeretnéd használni!
         )
         self.tree = app_commands.CommandTree(self)
         self.welcome_channel_id = None  # Welcome csatorna ID-ja
