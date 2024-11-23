@@ -20,7 +20,7 @@ A simple and customizable Python Discord bot built with [discord.py](https://dis
 
 1. Clone this repository:  
    ```bash  
-   git clone https://github.com/your-username/your-repo-name.git  
+   git clone https://github.com/zelosdevs/dc-bot-py-v1.git
    cd your-repo-name  
    ```  
 
